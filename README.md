@@ -18,4 +18,4 @@ If you have any ideas to improve the code, please write to me in telegram - @tim
 ---
 
 # Screenshots
-<img src="https://i.imgur.com/JbYWBYs.jpeg" alt="Screenshot1" width="217px">
+<img src="https://i.imgur.com/JbYWBYs.jpeg" alt="Screenshot1" width="417px">
