@@ -13,10 +13,12 @@ def parsing():
 
     for tr in list_trs:
         try:
-            ip = str(tr.find("abbr").contents[1]).strip("</script> document.write('');").replace("' + '", "")
+            ip = str(tr.find("abbr").contents[1])\
+                .strip("</script> document.write('');")\
+                .replace("' + '", "")
             port = tr.find_all("td")[1].text.strip()
             list_proxies.append(f"{ip}:{port}")
         except Exception as e:
-            pass
+            print(f"[ERROR] {e}")
 
     return list_proxies
