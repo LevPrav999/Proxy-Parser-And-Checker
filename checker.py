@@ -1,7 +1,8 @@
-import requests
 from threading import Thread
 from time import time
 from random import choice
+
+import requests
 
 
 result = []
